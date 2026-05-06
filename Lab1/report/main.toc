@@ -1,0 +1,50 @@
+\contentsline {section}{\numberline {I}INTRODUCTION}{1}{section.1}%
+\contentsline {section}{\numberline {II}SYSTEM ANALYSIS}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Scope}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}System Requirements}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}System Requirements Overview}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Detailed System Requirements}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Non-functional Requirements}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Use case Specification}{10}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Common Elements and Flows for All Use Cases}{10}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Personnel Management: Import Employee Data}{10}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Attendance Management: Mark Student Attendance}{12}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Attendance Management: Generate Student Attendance Report}{13}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Leave Request Management: Create Leave Requests}{14}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.6}Leave Request Management: Confirm Leave Requests}{16}{subsubsection.2.4.6}%
+\contentsline {subsubsection}{\numberline {2.4.7}Newsfeed Management: Post Newsfeed}{16}{subsubsection.2.4.7}%
+\contentsline {subsubsection}{\numberline {2.4.8}Medicine reminder management: Confirm medicine reminder}{18}{subsubsection.2.4.8}%
+\contentsline {subsubsection}{\numberline {2.4.9}Notification management: Push notification}{19}{subsubsection.2.4.9}%
+\contentsline {subsubsection}{\numberline {2.4.10}Bus management: Track buses}{20}{subsubsection.2.4.10}%
+\contentsline {subsection}{\numberline {2.5}Sequence diagram}{22}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Sequence Diagram for Mark Student Attendance}{22}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Sequence Diagram for Import Employee Data}{23}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Sequence Diagram for Create Student Leave Request}{24}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Sequence Diagram for Confirm Student Leave Request}{25}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Sequence Diagram for Post Newsfeed}{26}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.5.6}Sequence Diagram for Track Buses}{27}{subsubsection.2.5.6}%
+\contentsline {section}{\numberline {III}SYSTEM DESIGN}{28}{section.3}%
+\contentsline {subsection}{\numberline {3.1}System Architecture Overview}{28}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Software Block Diagram}{29}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Web Application}{29}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Mobile Application}{31}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Database Design}{32}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Extracted database tables}{32}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Database Design Description}{34}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {IV}METHODOLOGY}{36}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Sencha Ext JS}{36}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Flutter}{36}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Spring boot}{36}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}PostgreSQL}{36}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Object-Relational Mapping}{37}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Pagination}{37}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Firebase Messaging Cloud}{37}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}STOMP Over WebSocket}{37}{subsection.4.8}%
+\contentsline {section}{\numberline {V}TESTING}{38}{section.5}%
+\contentsline {section}{\numberline {VI}RESULTS AND DISCUSSIONS}{40}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Results}{40}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Discussions}{45}{subsection.6.2}%
+\contentsline {section}{\numberline {VII} CONCLUSIONS AND FUTURE WORK}{46}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Conclusions}{46}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Future Work}{46}{subsection.7.2}%
+\contentsline {section}{REFERENCES}{47}{section*.34}%

@@ -1,0 +1,150 @@
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3cm}|
+                  >{\raggedright\arraybackslash}p{5cm}|
+                  >{\raggedright\arraybackslash}p{5cm}|
+                  >{\centering\arraybackslash}p{2cm}|}                  
+\caption{System Functional Test Plan.}
+\label{tab:test_plan} \\
+\hline
+\textbf{Test case} & \textbf{Steps} & \textbf{Expected Result} & \textbf{Status} \\
+\hline
+\endfirsthead
+\endhead
+
+Import employee data feature. & 
+1. Navigate to Employee Profile → Import function.
+\newline
+2a. Upload valid Excel file with employee data.
+\newline
+2b. Upload invalid file (wrong format/missing columns).
+\newline
+2c. Upload file with duplicate employee codes, identities & 
+1. Display user's managed departments in tree structure.
+\newline
+2a. Successfully import data, refresh employee list, show success message.
+\newline
+2b. Display specific error message (invalid format/missing required columns).
+\newline
+2c. Display error for duplicate entries, import only valid records. & 
+PASS \\
+\hline
+
+Mark Student Attendance & 
+1. Navigate to Attendance feature for selected class.
+\newline
+2. Mark students as present/absent/late.
+\newline
+3. Attempt to mark attendance for future dates.
+\newline
+4. Try to modify past attendance records.& 
+1. Display student list with current attendance status.
+\newline
+2. Save attendance to database, send notifications to parents.
+\newline
+3. Future dates should be disabled in calendar.
+\newline
+4. Past records should be read-only.& 
+PASS \\
+\hline
+
+Generate Student Attendance Report & 
+1. Navigate to Student Attendance Report.
+\newline
+2. Select date range and generate report.
+\newline
+3. Export report to Excel format.
+\newline
+4. Try invalid date range. & 
+1. Display departments managed by user.
+\newline
+2. Show attendance records with status indicators.
+\newline
+3. Download Excel file with formatted data.
+\newline
+4. Display validation error message. & 
+PASS \\
+\hline
+
+Create Student Leave Requestt & 
+1. Navigate to Leave Request feature.
+\newline
+2. Fill required fields and submit.
+\newline
+3. Create in leave request (overlapping, holiday conflicts, in valid date range). 
+\newline
+4. Submit request with missing mandatory fields or invalid field.& 
+1. Display recent leave requests.
+\newline
+2. Save request, update student status, and send notification to teacher.
+\newline
+3. Display error message.
+\newline
+4. Disable submit button until all fields completed and valid.& 
+PASS \\
+\hline
+
+Confirm Student Leave Request & 
+1. Navigate to Confirm Leave request feature.
+\newline
+2. Review and approve/reject/revoke request.
+\newline
+3. Try to confirm expired leave request. & 
+1. Display pending leave requests by priority.
+\newline
+2. Update request status, log approver info, and send notification to parents.
+\newline
+3. Show error for expired requests. & 
+PASS \\
+\hline
+
+Post newsfeed & 
+1. Navigate to Newsfeed feature.
+\newline
+2. Create post with text and images.
+\newline
+3. Upload attachments exceeding 100MB limit. 
+\newline
+4. Post with video content.& 
+1. Display latest 10 newsfeed posts.
+\newline
+2. Save post, make visible to parents and teachers.
+\newline
+3. Display file size limit error. 
+\newline
+4. Successfully upload and display video content.& 
+PASS \\
+\hline
+
+Confirm medicine reminder & 
+1. Navigate to Medicine Reminder feature.
+\newline
+2. Confirm a valid reminder.
+\newline
+3. Try to confirm expired reminder. & 
+1. Display latest 10 medicine reminders.
+\newline
+2. Update reminder status and send notification to parent.
+\newline
+3. Display error for expired reminders (usage date passed). & 
+PASS \\
+\hline
+
+Real-time Bus Tracking & 
+1. Navigate to Bus feature as parent.
+\newline
+2. Select bus route to track.
+\newline
+3. Transportation staff disables GPS.
+\newline
+4. No transportation staff assigned to route.& 
+1. Display all active registered bus routes.
+\newline
+2. Establish WebSocket connection, receive real-time location updates every 50 meters.
+\newline
+3. Display GPS error message to parent.
+\newline
+4. Show "No staff assigned" error message.& 
+PASS \\
+\hline
+
+\end{longtable}

@@ -1,0 +1,63 @@
+% SENCHA EXT JS
+\subsection{Sencha Ext JS}
+\begin{minipage}{\textwidth}
+    \setlength{\parindent}{2em}
+    Sencha Ext JS is a comprehensive JavaScript framework for building data-intensive, cross-platform web applications. It is used for UI development \textbf{due to several reasons}: its \textbf{rich component library}, support for the \textbf{MVC architecture}, \textbf{responsive and cross-browser} compatibility, and \textbf{high performance}.
+\end{minipage}\\
+
+% FLUTTER
+\subsection{Flutter}
+\begin{minipage}{\textwidth}
+    \setlength{\parindent}{2em}
+    Flutter is an open-source mobile application development framework created by Google. It is chose to develop the GMES School mobile application \textbf{because of} several reasons:
+\end{minipage}
+\begin{itemize}
+\setlength{\itemsep}{0.0em}
+    \item \textbf{Cross-platform Development}: A single codebase that can create applications for both iOS and Android, helping save development time and ensuring consistency in user experience across platforms.
+    \item \textbf{Widget-based Architecture}: I can built the interface by combining various widgets such as ListView for displaying data lists, Card widgets for information presentation, and custom widgets for specific functionalities throughout the application.
+    \item \textbf{State Management}: Implemented GetX state management to manage the application state, ensuring data synchronization across different screens.
+\end{itemize}
+
+% SPRING
+\subsection{Spring boot}
+\begin{minipage}{\textwidth}
+    \setlength{\parindent}{2em}
+    Spring Boot is a Java framework that is used to build the GMES School system, allowing me to develop the backend, RESTful APIs, and real-time communication using STOMP over WebSocket quickly and efficiently. It is chosen because of its \textbf{integration with the Spring ecosystem} (including Dependency Injection and Spring Security), support for \textbf{auto-configuration} to speed up development, \textbf{microservices architecture} for scalable services, and its \textbf{built-in Tomcat server} for easy deployment to our VPS.
+\end{minipage}\\
+
+% POSTGRE SQL
+\subsection{PostgreSQL}
+\begin{minipage}{\textwidth}
+    \setlength{\parindent}{2em}
+    PostgreSQL is a powerful, open-source relational database management system (RDBMS) used to manage and process data. PostgreSQL is selected for the GMES School project due to its \textbf{superior performance} and \textbf{reliability}, especially when compared to alternatives like MySQL. As GMES School manages multiple institutions and thousands of users within a microservice architecture, PostgreSQL efficiently handles \textbf{high-concurrency workloads} with minimal delay. Additionally, \textbf{its accurate decimal arithmetic} ensures precise financial calculations, making it essential for maintaining system integrity and performance.
+\end{minipage}\\
+
+% OBJECT-RELATIONAL MAPPING
+\subsection{Object-Relational Mapping}
+\indent\indent The system implemented Hibernate ORM as the persistence layer framework to facilitate the interaction between the GMES Java application and the PostgreSQL database. ORM serves as a crucial bridge that maps object-oriented programming concepts to relational database structures, allowing me to focus on core educational management features instead of low-level database operations.
+
+% PAGINATION
+\subsection{Pagination}
+\begin{minipage}{\textwidth}
+    \setlength{\parindent}{2em}
+    The GMES School system manages large datasets across multiple educational institutions, including comprehensive employee and student records. To maintain performance and user experience, I use pagination to \textbf{retrieve data in smaller chunks} instead of loading entire datasets at once.
+\end{minipage}\\
+
+
+% FIREBASE CLOUD MESSAGING
+\subsection{Firebase Messaging Cloud}
+\begin{minipage}{\textwidth}
+    \setlength{\parindent}{2em} Push notifications are essential to the system, keeping parents, teachers, and transportation staff informed of important updates. Therefore, the system integrates Firebase Cloud Messaging (FCM) as its push notification solution due to its \textbf{reliability}, \textbf{cross-platform}, and scalable architecture that can \textbf{handle simultaneous notifications}.
+\end{minipage}\\
+
+% STOMP OVER WEBSOCKET
+\subsection{STOMP Over WebSocket}
+\begin{minipage}{\textwidth}
+    \setlength{\parindent}{2em} In this project, I use STOMP over WebSocket to enable real-time bus tracking. WebSocket provides a persistent, full-duplex connection, while STOMP adds a structured messaging protocol that simplifies routing and processing. This combination allows Flutter mobile app and Spring Boot backend to exchange messages efficiently in real time. It enables key features such as:
+\end{minipage}
+\begin{itemize}[itemsep=-0.1cm, topsep=0.25cm]
+    \item \textbf{Pub-Sub Messaging}: for broadcasting bus locations.
+    \item \textbf{Targeted Messages}: to individual users
+    \item \textbf{Acknowledgment Mechanisms}: for reliable delivery.
+\end{itemize}
+

@@ -1,0 +1,241 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage[T5]{fontenc} % For Vietnamese
+\usepackage[hidelinks]{hyperref} % Enables hyperlinks
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array} % for better column control
+\usepackage{makecell} % for better cell formatting
+\usepackage{longtable}
+\usepackage{etoolbox}
+% HEADER AND FOOTER STUFF
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{enumitem} % in preamble
+\usepackage{subcaption}
+
+% Set globally for all figures
+\captionsetup{skip=6pt} % Default is usually 10pt
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+% \fancyfoot[R]{\thepage}
+\fancyfoot[C]{\makebox[\textwidth][r]{Page \thepage\ of \pageref{LastPage}}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Define colors first before using them
+\definecolor{sectioncolor}{RGB}{0, 0, 0} % Using black for section headers
+\definecolor{usthblue}{RGB}{36, 64, 142}
+\definecolor{usthred}{RGB}{237, 50, 36}
+
+% Define horizontal lines
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}}
+
+% Change section numbering to Roman numerals
+\renewcommand\thesection{\Roman{section}}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}}
+
+% Adjust section formatting with rule line underneath
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{sectioncolor}}
+  {\thesection}{1em}{}[{\titlerule[0.8pt]}]
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{sectioncolor}}
+  {\thesubsection}{1em}{}
+
+\usetikzlibrary{calc}
+
+% Set page margins
+\geometry{left=3.5cm, right=2.0cm, top=2.5cm, bottom=2.5cm}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        % Create a frame around the entire page
+        \begin{tikzpicture}[remember picture, overlay]
+            \draw [line width=1pt]
+                ([xshift=3.5cm, yshift=-2.5cm]current page.north west) rectangle
+                ([xshift=-2.0cm, yshift=2.5cm]current page.south east);
+        \end{tikzpicture}
+    
+        {\normalsize \textbf{UNIVERSITY OF SCIENCE AND TECHNOLOGY OF HANOI}} \\
+        {\normalsize {Department of Information and Communication Technology}} \\
+        
+        \vspace{1cm}
+        \includegraphics[width=5cm]{images/logo_USTH.png}
+        
+        \vspace{2cm}
+        {\Huge {\textbf{Report Labwork 1}}} \\
+        \vspace{0.5cm}
+        {\LARGE \textbf{Gradient Descent}} \\
+
+        \vspace{1.5cm}
+        By\\
+        Ngo Quang Truong\\
+        2540106\\
+        
+        \vfill
+        {\large \textbf{Hanoi, May 2026}}
+    \end{center}
+\end{titlepage}
+
+% TABLE OF CONTENT
+\renewcommand{\contentsname}{TABLE OF CONTENTS} % Change "Contents" to "My Custom Title"
+\clearpage
+\pagestyle{empty}
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+\clearpage
+
+% When starting the main content:
+\newpage
+\clearpage
+\pagenumbering{arabic}  % Switch back to arabic numbers
+\setcounter{page}{1}    % Reset page counter again for main content
+\pagestyle{fancy}  
+\pagenumbering{arabic}  % Switch back to arabic numbers
+\setcounter{page}{1}    % Reset page counter again for main content
+
+% I. INTRODUCTION
+\newpage
+\setcounter{page}{1}  % Reset page numbering so the introduction starts from page 1
+\section{INTRODUCTION}\label{sec:intro}
+  \indent
+  Gradient Descent is an iterative optimization algorithm used to minimize a cost function by adjusting model parameters in the direction of the steepest descent of the function’s gradient. In simple terms, it finds the optimal values of weights and biases by gradually reducing the error between predicted and actual outputs.Given a differentiable function f : R →R and its first-order derivative f prime, the algorithm repeatedly moves the current estimate of the minimum in the direction that decreases f most steeply—i.e. opposite to the gradient.
+
+% II. SYSTEM ANALYSIS
+\newpage
+\section{SYSTEM ANALYSIS}\label{sec:system_analysis}
+  \indent
+
+  This section presents the overall scope and system requirements, along with a detailed analysis of the modules and features assigned to me.
+  % 2.1 Scope
+  \subsection{Scope}
+  \label{sec:scope}
+  \input{section/II_objective/scope.tex}
+
+  % 2.2 System Requirements
+  \subsection{System Requirements}
+  \input{section/II_objective/desired_feature.tex}
+
+  % 2.3 Non-functional Requirements
+  \subsection{Non-functional Requirements}
+  \input{section/II_objective/non_functional_requirements.tex}
+
+  % 2.4 Use case diagram
+  % \subsection{Use-case Diagram}
+  % \input{section/II_objective/use_case_diagram.tex}
+
+  % 2.5 Use-case specification
+  \subsection{Use case Specification}\label{sec:use_case_specification}
+  \input{section/II_objective/use_case_specification.tex}
+
+  % 2.6 Sequence diagram
+  \newpage
+  \subsection{Sequence diagram}
+  \input{section/II_objective/sequence_diagram.tex}
+
+  % % 2.7 Database design
+  % \subsection{Database Design}
+  % \input{section/II_objective/database_design.tex}
+
+
+% III. SYSTEM DESIGN
+\newpage
+\section{SYSTEM DESIGN}\label{sec:system_design}
+  \indent
+
+  This section focuses on describing the design process of the system, progressing from general to detailed design based on the analysis presented in \textbf{\autoref{sec:system_analysis} \nameref{sec:system_analysis}}
+
+    % 3.1 System Architecture Overview
+  \subsection{System Architecture Overview}
+  \input{section/III_system_design/system_architecture_overview.tex}
+
+    % 3.2 Software block diagram
+  \subsection{Software Block Diagram}
+  \input{section/III_system_design/software_block_diagram.tex}
+
+  % 3.3 Database design
+  \subsection{Database Design}
+  \input{section/II_objective/database_design.tex}
+
+
+% IV. METHODOLOGY
+\newpage
+\section{METHODOLOGY}\label{sec:methodology}
+  \indent
+
+  This section details the methodologies used to develop the modules and features assigned to me. It explains why each approach was chosen and shows how these approaches helped solve the problems.
+  % 4.1
+  % \subsection{Technologies}
+  \input{section/IV_methodology/technology.tex}
+
+% V. TESTING
+\newpage
+\section{TESTING}\label{sec:testing}
+  \indent
+
+  This section outlines the systematic testing and evaluation procedures used to verify the functionality, and reliability of key features implemented in this project. The comprehensive testing approach ensures that each module operates correctly under various conditions and meets the established quality criteria.
+  % 4.1
+  % \subsection{Technologies}
+  \input{section/V_testing/testing.tex}
+
+% VI. RESULTS AND DISCUSSIONS 
+\newpage
+\section{RESULTS AND DISCUSSIONS}\label{sec:results_and_discussion}
+  \indent
+
+  This section outlines the features and modules I implemented, followed by the key challenges encountered during development.
+  % 5.1 Results
+  \subsection{Results}
+  \input{section/V_results_discussions/result.tex}
+
+  % 5.2 Results
+  % \subsection{Contributions}
+  % \input{section/V_results_discussions/contributions.tex}
+
+  % 5.2 Discussions
+  \subsection{Discussions}
+  \input{section/V_results_discussions/discussions.tex}
+
+% VII. CONCLUSION AND FUTURE SCOPE
+\newpage
+\section{ CONCLUSIONS AND FUTURE WORK}\label{sec:conclusion_and_future_scope}
+\indent
+
+  This section summarizes the key achievements and and outlines our strategic plans for future development.
+  % 6.1 Results
+  \subsection{Conclusions}
+  \input{section/VI_conclusion_future_scope/conclusion.tex}
+
+  % 6.2 Discussions
+  \subsection{Future Work}
+  \input{section/VI_conclusion_future_scope/future_scope.tex}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{section}{REFERENCES}
+\section*{REFERENCES}
+\input{references.tex}
+
+% \newpage
+% \phantomsection
+% \addcontentsline{toc}{section}{APPENDICES}
+% \section*{APPENDICES}
+% \input{appendicies.tex}
+
+\end{document}

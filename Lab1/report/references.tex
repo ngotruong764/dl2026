@@ -1,0 +1,37 @@
+\renewcommand{\refname}{} % This hides the default "References" title
+% Patch the bibliography to remove the default horizontal rule
+\makeatletter
+\patchcmd{\thebibliography}
+  {\section*{\refname}}  % This is the part inserting the heading and line
+  {}                     % Replace it with nothing
+  {}{}
+\makeatother
+ 
+\begin{thebibliography}{9}
+\bibitem{vietname_education_2024_2025}
+Minh Giảng. Toan canh giao duc viet nam 2024-2025. \textsc{url}: \url{https://tuoitre.vn/toan-canh-giao-duc-viet-nam-nam-hoc-2024-2025-2024090510153954.htm}.
+\bibitem{what_is_sencha}
+What is Sencha Ext JS? \textsc{url}: \url{https://pangea.app/glossary/sencha-ext-js}.
+\bibitem{sencha_doc}
+Sencha documentation \textsc{url}: \url{https://docs.sencha.com/extjs/7.9.0/}.
+\bibitem{mvc_design_pattern}
+Saket Kumar. MVC Design Pattern \textsc{url}: \url{https://www.geeksforgeeks.org/system-design/mvc-design-pattern/}.
+\bibitem{flutter_doc}
+Flutter documentation \textsc{url}: \url{https://docs.flutter.dev/}.
+\bibitem{what_is_jvsb}
+IBM. What is Java Spring Boot? \textsc{url}: \url{https://www.ibm.com/think/topics/java-spring-boot}.
+\bibitem{what_are_microservices_g4g}
+Tapan Rawat. What are Microservices? \textsc{url}: \url{https://www.geeksforgeeks.org/system-design/microservices/}.
+\bibitem{what_is_microservices_architecture}
+What is Microservices Architecture? \textsc{url}: \url{https://www.geeksforgeeks.org/system-design/microservices/}.
+\bibitem{what_is_orm}
+Ihechikara Abba. What is an ORM \- The Meaning of Object Relational Mapping Database Tools \textsc{url}: \url{https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/}.
+\bibitem{what_is_orm_baeldung}
+Guilherme Chehab. What Is an ORM? How Does It Work? How Should We Use One? \textsc{url}: \url{https://www.baeldung.com/cs/object-relational-mapping}.
+\bibitem{web_socket_explained}
+Alex Diaconu. WebSockets explained: What they are and how they work \textsc{url}: \url{https://ably.com/topic/websockets}.
+\bibitem{using_websocket_implement_with_stomp}
+Tomasz Dabrowski. Using Spring Boot for WebSocket Implementation with STOMP \textsc{url}: \url{https://www.toptal.com/java/stomp-spring-boot-websocket}.
+\bibitem{web_socket_with_spring}
+Aliaksandr Liakh. WebSockets With Spring, Part 3: STOMP Over WebSocket \textsc{url}: \url{https://medium.com/swlh/websockets-with-spring-part-3-stomp-over-websocket-3dab4a21f397}.
+\end{thebibliography}
