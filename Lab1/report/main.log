@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  6 MAY 2026 20:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  6 MAY 2026 21:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,7 +642,8 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box73
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
@@ -665,7 +666,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
- (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count315
 \scratchdimen=\dimen281
@@ -727,41 +728,33 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 63.
- (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<images/logo_USTH.png, id=208, 1766.6pt x 883.3pt>
+<images/logo_USTH.png, id=7, 1766.6pt x 883.3pt>
 File: images/logo_USTH.png Graphic file (type png)
 <use images/logo_USTH.png>
 Package pdftex.def Info: images/logo_USTH.png  used on input line 78.
 (pdftex.def)             Requested size: 142.26378pt x 71.12369pt.
  [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/logo_USTH.png>] (./main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/logo_USTH.png>]
+No file main.toc.
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 ...VI}RESULTS AND DISCUSSIONS}{40}{section.6}
-                                                  % [1
+l.102 \clearpage
+                 [1
 
 ]
-Overfull \hbox (2.99927pt too wide) detected at line 47
-\T5/cmr/bx/n/12 VII 
- []
 
-)
-\tf@toc=\write5
-\openout5 = `main.toc'.
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 121.
 
- [2]
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
@@ -774,690 +767,162 @@ l.121 \newpage
                [1
 
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./section/II_objective/scope.tex
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19         \item \textbf
-                          {Health management}: The module tracks student hea... [2]
-Overfull \hbox (0.61592pt too wide) in paragraph at lines 20--21
-\T5/cmr/m/n/12 hold-ers, in-clud-ing em-ploy-ees, teach-ers, and par-ents in-formed about crit-i-cal events,
- []
-
-) (./section/II_objective/desired_feature.tex
-<images/use_case_diagram.png, id=287, 3991.91376pt x 4630.29875pt>
-File: images/use_case_diagram.png Graphic file (type png)
-<use images/use_case_diagram.png>
-Package pdftex.def Info: images/use_case_diagram.png  used on input line 15.
-(pdftex.def)             Requested size: 485.1222pt x 562.67714pt.
-
-Overfull \hbox (44.10446pt too wide) in paragraph at lines 15--17
- [][] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[3]
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[4 <./images/use_case_diagram.png>]
-<images/use_case_attendance_management.png, id=301, 2307.62125pt x 1884.03876pt>
-File: images/use_case_attendance_management.png Graphic file (type png)
-<use images/use_case_attendance_management.png>
-Package pdftex.def Info: images/use_case_attendance_management.png  used on input line 35.
-(pdftex.def)             Requested size: 308.71106pt x 252.03441pt.
-<images/use_case_student_assessment_management.png, id=302, 1195.46625pt x 946.53625pt>
-File: images/use_case_student_assessment_management.png Graphic file (type png)
-<use images/use_case_student_assessment_management.png>
-Package pdftex.def Info: images/use_case_student_assessment_management.png  used on input line 49.
-(pdftex.def)             Requested size: 176.40439pt x 139.66344pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[5 <./images/use_case_attendance_management.png> <./images/use_case_student_assessment_management.png>]
-<images/use_case_bus_management.png, id=312, 2013.5225pt x 1374.13374pt>
-File: images/use_case_bus_management.png Graphic file (type png)
-<use images/use_case_bus_management.png>
-Package pdftex.def Info: images/use_case_bus_management.png  used on input line 63.
-(pdftex.def)             Requested size: 308.71106pt x 210.6821pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[6 <./images/use_case_bus_management.png>]
-Overfull \hbox (10.02603pt too wide) in paragraph at lines 78--79
-[]\T5/cmr/bx/n/12 Feature 2: Con-firm medicine re-minder: \T5/cmr/m/n/12 en-ables \T5/cmr/bx/n/12 teach-ers \T5/cmr/m/n/12 to con-firm medicine
- []
-
-<images/use_case_medicine_reminder.png, id=320, 1185.42876pt x 1230.5975pt>
-File: images/use_case_medicine_reminder.png Graphic file (type png)
-<use images/use_case_medicine_reminder.png>
-Package pdftex.def Info: images/use_case_medicine_reminder.png  used on input line 82.
-(pdftex.def)             Requested size: 198.45662pt x 206.00665pt.
-<images/use_case_leave_request_management.png, id=321, 1394.20876pt x 1364.09625pt>
-File: images/use_case_leave_request_management.png Graphic file (type png)
-<use images/use_case_leave_request_management.png>
-Package pdftex.def Info: images/use_case_leave_request_management.png  used on input line 91.
-(pdftex.def)             Requested size: 220.50887pt x 215.74132pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[7 <./images/use_case_medicine_reminder.png> <./images/use_case_leave_request_management.png>]
-<images/use_case_newsfeed_management.png, id=332, 976.64874pt x 1182.4175pt>
-File: images/use_case_newsfeed_management.png Graphic file (type png)
-<use images/use_case_newsfeed_management.png>
-Package pdftex.def Info: images/use_case_newsfeed_management.png  used on input line 106.
-(pdftex.def)             Requested size: 154.35889pt x 186.88126pt.
-<images/use_case_notification_management.png, id=333, 1103.12125pt x 1131.22626pt>
-File: images/use_case_notification_management.png Graphic file (type png)
-<use images/use_case_notification_management.png>
-Package pdftex.def Info: images/use_case_notification_management.png  used on input line 121.
-(pdftex.def)             Requested size: 176.40439pt x 180.89633pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[8 <./images/use_case_newsfeed_management.png> <./images/use_case_notification_management.png>]
-<images/use_case_personnel_management.png, id=343, 1679.27374pt x 1357.07pt>
-File: images/use_case_personnel_management.png Graphic file (type png)
-<use images/use_case_personnel_management.png>
-Package pdftex.def Info: images/use_case_personnel_management.png  used on input line 134.
-(pdftex.def)             Requested size: 264.61333pt x 213.84319pt.
-) (./section/II_objective/non_functional_requirements.tex
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[9 <./images/use_case_personnel_management.png>]) (./section/II_objective/use_case_specification.tex
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 34--40
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 40--41
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 41--63
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[10]
-Overfull \hbox (23.37357pt too wide) in alignment at lines 70--76
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 76--77
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 77--107
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 140--146
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 146--147
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 147--180
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[12]
-Overfull \hbox (23.37357pt too wide) in alignment at lines 191--197
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 197--198
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 198--201
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 206--212
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 212--213
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 213--216
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 221--227
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 227--228
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 228--233
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--256
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 265--271
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 271--272
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 272--305
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 325--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--335
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 344--350
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 350--351
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 351--382
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[14]
-Overfull \hbox (8.76997pt too wide) in paragraph at lines 386--388
-[][][]$[]$
- []
-
-
-Overfull \hbox (8.76997pt too wide) in paragraph at lines 388--391
-[][][]$[]$
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 393--399
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 399--400
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 400--412
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--427
-
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 432--435
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 444--450
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 450--451
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 451--482
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--503
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 509--512
-
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[16]
-Overfull \hbox (23.37357pt too wide) in alignment at lines 520--526
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 526--527
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 527--560
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 567--573
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 573--574
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 574--586
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--601
-
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 606--609
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 618--624
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 624--625
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 625--658
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 665--671
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 671--672
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 672--677
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 695--698
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 703--706
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 714--720
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 720--721
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 721--777
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 799--802
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 807--810
-
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 819--825
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 825--826
- [] [] [] 
- []
-
-
-Overfull \hbox (23.37357pt too wide) in alignment at lines 826--876
- [] [] [] 
- []
-
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[20]
-Overfull \hbox (8.76997pt too wide) in paragraph at lines 880--882
-[][][]$[]$
- []
-
-
-Overfull \hbox (8.76997pt too wide) in paragraph at lines 882--884
-[][][]$[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 899--902
-
- []
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./section/II_mathematic_background/problem_formulation.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+
+./section/II_mathematic_background/problem_formulation.tex:5: Undefined control sequence.
+l.5   x^* \;=\; \arg\min_{x \in \mathbb
+                                       {R}}\; f(x),
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./section/II_mathematic_background/problem_formulation.tex:14: Undefined control sequence.
+l.14   \boxed
+             {x_{k+1} \;=\; x_k \;-\; r \cdot f'(x_k)}, \qquad k = 0, 1, 2, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 )
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
 
-[21] (./section/II_objective/sequence_diagram.tex
-<images/sqd_mark_attendance_class.png, id=443, 3387.65625pt x 2565.585pt>
-File: images/sqd_mark_attendance_class.png Graphic file (type png)
-<use images/sqd_mark_attendance_class.png>
-Package pdftex.def Info: images/sqd_mark_attendance_class.png  used on input line 11.
-(pdftex.def)             Requested size: 441.01773pt x 333.96838pt.
-<images/sqd_import_employee_data.png, id=444, 2307.62125pt x 3342.4875pt>
-File: images/sqd_import_employee_data.png Graphic file (type png)
-<use images/sqd_import_employee_data.png>
-Package pdftex.def Info: images/sqd_import_employee_data.png  used on input line 26.
-(pdftex.def)             Requested size: 352.81552pt x 511.04192pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[22 <./images/sqd_mark_attendance_class.png>]
-<images/sqd_create_student_leave_request.png, id=453, 2664.95625pt x 2582.64874pt>
-File: images/sqd_create_student_leave_request.png Graphic file (type png)
-<use images/sqd_create_student_leave_request.png>
-Package pdftex.def Info: images/sqd_create_student_leave_request.png  used on input line 41.
-(pdftex.def)             Requested size: 441.01773pt x 427.37971pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[23 <./images/sqd_import_employee_data.png>]
-<images/sqd_confirm_student_leave_request.png, id=461, 3058.42625pt x 1981.4025pt>
-File: images/sqd_confirm_student_leave_request.png Graphic file (type png)
-<use images/sqd_confirm_student_leave_request.png>
-Package pdftex.def Info: images/sqd_confirm_student_leave_request.png  used on input line 56.
-(pdftex.def)             Requested size: 441.01773pt x 285.70874pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[24 <./images/sqd_create_student_leave_request.png>]
-<images/sqd_post_newsfeed.png, id=469, 2344.76pt x 2292.565pt>
-File: images/sqd_post_newsfeed.png Graphic file (type png)
-<use images/sqd_post_newsfeed.png>
-Package pdftex.def Info: images/sqd_post_newsfeed.png  used on input line 71.
-(pdftex.def)             Requested size: 441.01773pt x 431.18419pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[25 <./images/sqd_confirm_student_leave_request.png>]
-<images/sqd_track_bus.png, id=477, 3133.7075pt x 2911.87875pt>
-File: images/sqd_track_bus.png Graphic file (type png)
-<use images/sqd_track_bus.png>
-Package pdftex.def Info: images/sqd_track_bus.png  used on input line 86.
-(pdftex.def)             Requested size: 441.01773pt x 409.79297pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[26 <./images/sqd_post_newsfeed.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 91--151
-
- []
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 155.
 
 
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[27 <./images/sqd_track_bus.png>] (./section/III_system_design/system_architecture_overview.tex
-<images/sad_overview.png, id=494, 1062.97125pt x 1378.14874pt>
+[2]
+
+LaTeX Warning: Reference `sec:system_analysis' on page 3 undefined on input line 159.
+
+
+LaTeX Warning: Reference `sec:system_analysis' on page 3 undefined on input line 159.
+
+(./section/III_system_design/system_architecture_overview.tex
+<images/sad_overview.png, id=40, 1062.97125pt x 1378.14874pt>
 File: images/sad_overview.png Graphic file (type png)
 <use images/sad_overview.png>
 Package pdftex.def Info: images/sad_overview.png  used on input line 4.
 (pdftex.def)             Requested size: 396.91325pt x 514.59648pt.
 
+
+LaTeX Warning: Reference `fig:system_architecture_diagram_overview' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 19.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[28 <./images/sad_overview.png>]) (./section/III_system_design/software_block_diagram.tex
-<images/bld_web_application.png, id=505, 938.50626pt x 729.72626pt>
+[3 <./images/sad_overview.png>]) (./section/III_system_design/software_block_diagram.tex
+<images/bld_web_application.png, id=49, 938.50626pt x 729.72626pt>
 File: images/bld_web_application.png Graphic file (type png)
 <use images/bld_web_application.png>
 Package pdftex.def Info: images/bld_web_application.png  used on input line 6.
 (pdftex.def)             Requested size: 441.01773pt x 342.90459pt.
+
+
+LaTeX Warning: Reference `fig:block_diagram_web' on page 4 undefined on input line 13.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
 
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 15.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[29 <./images/bld_web_application.png>]
-<images/bld_employee_web.png, id=514, 853.1875pt x 487.8225pt>
+[4 <./images/bld_web_application.png>]
+<images/bld_employee_web.png, id=58, 853.1875pt x 487.8225pt>
 File: images/bld_employee_web.png Graphic file (type png)
 <use images/bld_employee_web.png>
 Package pdftex.def Info: images/bld_employee_web.png  used on input line 21.
 (pdftex.def)             Requested size: 352.81552pt x 201.72798pt.
-<images/bld_admin_web.png, id=516, 853.1875pt x 522.95375pt>
+
+
+LaTeX Warning: Reference `fig:block_diagram_employee_web' on page 5 undefined on input line 27.
+
+<images/bld_admin_web.png, id=59, 853.1875pt x 522.95375pt>
 File: images/bld_admin_web.png Graphic file (type png)
 <use images/bld_admin_web.png>
 Package pdftex.def Info: images/bld_admin_web.png  used on input line 33.
 (pdftex.def)             Requested size: 352.81552pt x 216.2557pt.
-<images/bld_teacher_mobile_app.png, id=519, 869.2475pt x 545.03625pt>
+
+LaTeX Warning: Reference `fig:block_diagram_admin_web' on page 5 undefined on input line 39.
+
+
+LaTeX Warning: Reference `fig:block_diagram_web' on page 5 undefined on input line 48.
+
+<images/bld_teacher_mobile_app.png, id=60, 869.2475pt x 545.03625pt>
 File: images/bld_teacher_mobile_app.png Graphic file (type png)
 <use images/bld_teacher_mobile_app.png>
 Package pdftex.def Info: images/bld_teacher_mobile_app.png  used on input line 55.
 (pdftex.def)             Requested size: 352.81552pt x 221.22916pt.
 
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 59.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[30 <./images/bld_employee_web.png> <./images/bld_admin_web.png>]
-<images/bld_parent_mobile_app.png, id=531, 848.16875pt x 545.03625pt>
+[5 <./images/bld_employee_web.png> <./images/bld_admin_web.png>]
+
+LaTeX Warning: Reference `fig:block_diagram_teacher_mobile_app' on page 6 undefined on input line 61.
+
+<images/bld_parent_mobile_app.png, id=71, 848.16875pt x 545.03625pt>
 File: images/bld_parent_mobile_app.png Graphic file (type png)
 <use images/bld_parent_mobile_app.png>
 Package pdftex.def Info: images/bld_parent_mobile_app.png  used on input line 66.
 (pdftex.def)             Requested size: 352.81552pt x 226.7181pt.
-<images/bld_bus_manager_mobile_app.png, id=533, 832.10875pt x 202.7575pt>
+
+LaTeX Warning: Reference `fig:block_diagram_parent_mobile_app' on page 6 undefined on input line 72.
+
+<images/bld_bus_manager_mobile_app.png, id=72, 832.10875pt x 202.7575pt>
 File: images/bld_bus_manager_mobile_app.png Graphic file (type png)
 <use images/bld_bus_manager_mobile_app.png>
 Package pdftex.def Info: images/bld_bus_manager_mobile_app.png  used on input line 77.
 (pdftex.def)             Requested size: 352.81552pt x 85.96814pt.
 
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[31 <./images/bld_teacher_mobile_app.png> <./images/bld_parent_mobile_app.png>]) (./section/II_objective/database_design.tex
-<images/image.png, id=545, 3329.43875pt x 5391.14125pt>
-File: images/image.png Graphic file (type png)
-<use images/image.png>
-Package pdftex.def Info: images/image.png  used on input line 16.
-(pdftex.def)             Requested size: 441.01773pt x 714.03491pt.
-
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[32 <./images/bld_bus_manager_mobile_app.png>]
-Overfull \vbox (31.75182pt too high) has occurred while \output is active []
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 83.
 
 
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[33 <./images/image.png>]
+[6 <./images/bld_teacher_mobile_app.png> <./images/bld_parent_mobile_app.png>]
+
+LaTeX Warning: Reference `fig:block_diagram_bus_manager_mobile_app' on page 7 undefined on input line 83.
+
+)
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 175.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[34])
-Overfull \hbox (22.76405pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[35] (./section/IV_methodology/technology.tex
+[7 <./images/bld_bus_manager_mobile_app.png>] (./section/IV_methodology/technology.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
@@ -1473,11 +938,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--34
  []
 
 
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 36.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[36]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 41--45
 
  []
@@ -1488,11 +956,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
  []
 
 )
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 185.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[37] (./section/V_testing/testing.tex
+[9] (./section/V_testing/testing.tex
 Overfull \hbox (35.77356pt too wide) in alignment at lines 5--11
  [] [] [] [] 
  []
@@ -1508,141 +980,176 @@ Overfull \hbox (35.77356pt too wide) in alignment at lines 12--150
  []
 
 
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 150.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[38])
+[10])
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 195.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[39] (./section/V_results_discussions/result.tex
-<images/create_leave_request_parent.png, id=594, 1224.575pt x 2722.17pt>
+[11] (./section/V_results_discussions/result.tex
+<images/create_leave_request_parent.png, id=116, 1224.575pt x 2722.17pt>
 File: images/create_leave_request_parent.png Graphic file (type png)
 <use images/create_leave_request_parent.png>
 Package pdftex.def Info: images/create_leave_request_parent.png  used on input line 12.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/approve_leave_request_teacher.png, id=595, 1224.575pt x 2722.17pt>
+<images/approve_leave_request_teacher.png, id=117, 1224.575pt x 2722.17pt>
 File: images/approve_leave_request_teacher.png Graphic file (type png)
 <use images/approve_leave_request_teacher.png>
 Package pdftex.def Info: images/approve_leave_request_teacher.png  used on input line 19.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
 
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 27.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[40 <./images/create_leave_request_parent.png> <./images/approve_leave_request_teacher.png>]
-<images/create_post_teacher.png, id=604, 1224.575pt x 2722.17pt>
+[12 <./images/create_leave_request_parent.png> <./images/approve_leave_request_teacher.png>]
+<images/create_post_teacher.png, id=126, 1224.575pt x 2722.17pt>
 File: images/create_post_teacher.png Graphic file (type png)
 <use images/create_post_teacher.png>
 Package pdftex.def Info: images/create_post_teacher.png  used on input line 33.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/appendix_news_student_mobile.jpg, id=605, 1224.575pt x 2722.17pt>
+<images/appendix_news_student_mobile.jpg, id=127, 1224.575pt x 2722.17pt>
 File: images/appendix_news_student_mobile.jpg Graphic file (type jpg)
 <use images/appendix_news_student_mobile.jpg>
 Package pdftex.def Info: images/appendix_news_student_mobile.jpg  used on input line 40.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/attendance_teacher_view.png, id=606, 1224.575pt x 2722.17pt>
+<images/attendance_teacher_view.png, id=128, 1224.575pt x 2722.17pt>
 File: images/attendance_teacher_view.png Graphic file (type png)
 <use images/attendance_teacher_view.png>
 Package pdftex.def Info: images/attendance_teacher_view.png  used on input line 53.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/attendance_parent_view.png, id=607, 1224.575pt x 2722.17pt>
+<images/attendance_parent_view.png, id=129, 1224.575pt x 2722.17pt>
 File: images/attendance_parent_view.png Graphic file (type png)
 <use images/attendance_parent_view.png>
 Package pdftex.def Info: images/attendance_parent_view.png  used on input line 60.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/student_attendance_report.png, id=608, 1506.62875pt x 863.225pt>
+<images/student_attendance_report.png, id=130, 1506.62875pt x 863.225pt>
 File: images/student_attendance_report.png Graphic file (type png)
 <use images/student_attendance_report.png>
 Package pdftex.def Info: images/student_attendance_report.png  used on input line 69.
 (pdftex.def)             Requested size: 441.01773pt x 252.6734pt.
 
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 75.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[41 <./images/create_post_teacher.png> <./images/appendix_news_student_mobile.jpg> <./images/attendance_teacher_view.png> <./images/attendance_parent_view.png>]
-<images/assess_teacher_view.png, id=616, 1224.575pt x 2722.17pt>
+[13 <./images/create_post_teacher.png> <./images/appendix_news_student_mobile.jpg> <./images/attendance_teacher_view.png> <./images/attendance_parent_view.png>]
+<images/assess_teacher_view.png, id=137, 1224.575pt x 2722.17pt>
 File: images/assess_teacher_view.png Graphic file (type png)
 <use images/assess_teacher_view.png>
 Package pdftex.def Info: images/assess_teacher_view.png  used on input line 80.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/assess_student_view.png, id=617, 1224.575pt x 2722.17pt>
+<images/assess_student_view.png, id=138, 1224.575pt x 2722.17pt>
 File: images/assess_student_view.png Graphic file (type png)
 <use images/assess_student_view.png>
 Package pdftex.def Info: images/assess_student_view.png  used on input line 87.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
 
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 95.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[42 <./images/student_attendance_report.png> <./images/assess_teacher_view.png> <./images/assess_student_view.png>]
-<images/medicine_reminder_confirmation_teacher.png, id=626, 1224.575pt x 2722.17pt>
+[14 <./images/student_attendance_report.png> <./images/assess_teacher_view.png> <./images/assess_student_view.png>]
+<images/medicine_reminder_confirmation_teacher.png, id=146, 1224.575pt x 2722.17pt>
 File: images/medicine_reminder_confirmation_teacher.png Graphic file (type png)
 <use images/medicine_reminder_confirmation_teacher.png>
 Package pdftex.def Info: images/medicine_reminder_confirmation_teacher.png  used on input line 101.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/medicine_reminder_parent_view.png, id=627, 1224.575pt x 2722.17pt>
+<images/medicine_reminder_parent_view.png, id=147, 1224.575pt x 2722.17pt>
 File: images/medicine_reminder_parent_view.png Graphic file (type png)
 <use images/medicine_reminder_parent_view.png>
 Package pdftex.def Info: images/medicine_reminder_parent_view.png  used on input line 108.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
-<images/notification_web.png, id=628, 1506.62875pt x 863.225pt>
+<images/notification_web.png, id=148, 1506.62875pt x 863.225pt>
 File: images/notification_web.png Graphic file (type png)
 <use images/notification_web.png>
 Package pdftex.def Info: images/notification_web.png  used on input line 119.
 (pdftex.def)             Requested size: 441.01773pt x 252.6734pt.
-<images/notification_teacher_view.png, id=629, 361.35pt x 803.0pt>
+<images/notification_teacher_view.png, id=149, 361.35pt x 803.0pt>
 File: images/notification_teacher_view.png Graphic file (type png)
 <use images/notification_teacher_view.png>
 Package pdftex.def Info: images/notification_teacher_view.png  used on input line 128.
 (pdftex.def)             Requested size: 119.07518pt x 264.61098pt.
-<images/notification_parent_view.png, id=630, 1224.575pt x 2722.17pt>
+<images/notification_parent_view.png, id=150, 1224.575pt x 2722.17pt>
 File: images/notification_parent_view.png Graphic file (type png)
 <use images/notification_parent_view.png>
 Package pdftex.def Info: images/notification_parent_view.png  used on input line 135.
 (pdftex.def)             Requested size: 119.07518pt x 264.67323pt.
 
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 143.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[43 <./images/medicine_reminder_confirmation_teacher.png> <./images/medicine_reminder_parent_view.png> <./images/notification_web.png>]
-<images/ios_pathway.png, id=639, 373.72958pt x 136.51pt>
+[15 <./images/medicine_reminder_confirmation_teacher.png> <./images/medicine_reminder_parent_view.png> <./images/notification_web.png>]
+<images/ios_pathway.png, id=158, 373.72958pt x 136.51pt>
 File: images/ios_pathway.png Graphic file (type png)
 <use images/ios_pathway.png>
 Package pdftex.def Info: images/ios_pathway.png  used on input line 159.
 (pdftex.def)             Requested size: 154.35889pt x 56.38188pt.
-<images/android_pathway.png, id=640, 1144.275pt x 343.2825pt>
+<images/android_pathway.png, id=159, 1144.275pt x 343.2825pt>
 File: images/android_pathway.png Graphic file (type png)
 <use images/android_pathway.png>
 Package pdftex.def Info: images/android_pathway.png  used on input line 165.
 (pdftex.def)             Requested size: 264.61333pt x 79.38283pt.
 )
+
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 209.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[44 <./images/notification_teacher_view.png> <./images/notification_parent_view.png> <./images/ios_pathway.png> <./images/android_pathway.png>] (./section/V_results_discussions/discussions.tex)
+[16 <./images/notification_teacher_view.png> <./images/notification_parent_view.png> <./images/ios_pathway.png> <./images/android_pathway.png>] (./section/V_results_discussions/discussions.tex)
+
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 213.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[45] (./section/VI_conclusion_future_scope/conclusion.tex
+[17] (./section/VI_conclusion_future_scope/conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--9
 
  []
 
 ) (./section/VI_conclusion_future_scope/future_scope.tex)
+
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 226.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[46] (./references.tex
+[18] (./references.tex
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 12.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -1672,33 +1179,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
  []
 
 )
+
+LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 238.
+
+
 Overfull \hbox (22.76405pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[47] 
+[19] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 95F1B80DE22D5CAB7304FF7CC9552108;9660.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  21B73C695F0837CC9FA7F199F23FFA01;3925.
+
+Package lastpage Warning: Rerun to get the references right on input line 238.
+
  ) 
 Here is how much of TeX's memory you used:
- 23571 strings out of 474116
- 446134 string characters out of 5743683
- 1948187 words of memory out of 5000000
- 45346 multiletter control sequences out of 15000+600000
+ 23236 strings out of 474116
+ 436522 string characters out of 5743683
+ 1947187 words of memory out of 5000000
+ 45114 multiletter control sequences out of 15000+600000
  573767 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,87p,1139b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (50 pages, 14414726 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on main.pdf (21 pages, 11914585 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 629 compressed objects within 7 object streams
- 161 named destinations out of 1000 (max. 500000)
- 613 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

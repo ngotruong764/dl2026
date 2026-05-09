@@ -1,0 +1,36 @@
+\indent 
+    
+    We seek the minimiser
+\[
+  x^* \;=\; \arg\min_{x \in \mathbb{R}}\; f(x),
+\]
+where $f$ is assumed differentiable and the derivative $f'$ is known analytically
+(or can be computed).
+
+\subsection{The update rule}
+
+Starting from an initial guess $x_0$, gradient descent produces the sequence
+\[
+  \boxed{x_{k+1} \;=\; x_k \;-\; r \cdot f'(x_k)}, \qquad k = 0, 1, 2, \ldots
+\]
+where $r > 0$ is the \textbf{learning rate} (also called step size).
+
+\paragraph{Intuition.}
+The derivative $f'(x_k)$ points uphill; subtracting a fraction of it moves
+$x$ downhill.  If $r$ is too small the progress is slow; if $r$ is too large
+the iterates may overshoot and oscillate or diverge.
+
+\subsection{Convergence criterion}
+
+We stop when the gradient magnitude drops below a tolerance $\varepsilon$:
+\[
+  |f'(x_k)| \;<\; \varepsilon \;\approx\; 10^{-8}.
+\]
+
+\subsection{Test function}
+
+Throughout this report we use:
+\[
+  f(x) = x^2, \qquad f'(x) = 2x.
+\]
+The unique global minimum is $x^* = 0$ with $f(x^*) = 0$.
